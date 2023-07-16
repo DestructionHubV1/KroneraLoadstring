@@ -1,0 +1,1170 @@
+local library = loadstring(game:HttpGet("https://raw.githubusercontent.com/bloodball/-back-ups-for-libs/main/Kronos"))()
+
+local window = library:Window({
+   Title = "Kronera V3 - By voided_void#5861",
+   Accent = Color3.fromRGB(69,69,207),
+   Logo = 3610245066,
+   ToggleKey = Enum.KeyCode.LeftAlt
+})
+
+local tab = window:NewTab({
+   Logo = 4483345998
+})
+
+local tabsection = tab:TabSection({
+   Title = "Humanoid"
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera |Humanoid Scripts"
+})
+
+section:Button({
+   Text = "Fly Gui",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+       end
+})
+
+section:Button({
+   Text = "Esp",
+   Callback = function() 
+       pcall(function() loadstring(game:HttpGet('https://raw.githubusercontent.com/ic3w0lf22/Unnamed-ESP/master/UnnamedESP.lua'))() end)
+       end
+})
+
+section:Button({
+   Text = "Fling Gui",
+   Callback = function() 
+       loadstring(game:HttpGet('https://pastebin.com/raw/r97d7dS0', true))()
+       end
+})
+
+section:Button({
+   Text = "Swimming script",
+   Callback = function() 
+       loadstring(game:HttpGet('https://pastebin.com/raw/9CK0qSgn', true))()
+       end
+})
+
+section:Button({
+   Text = "Btools",
+   Callback = function() 
+       loadstring(game:GetObjects("rbxassetid://6695644299")[1].Source)()
+       end
+})
+
+section:TextLabel({
+   Text = "Kronera Scripts"
+})
+
+section:Button({
+   Text = "Speed 25",
+   Callback = function() 
+       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 25
+       end
+})
+
+section:Button({
+   Text = "Speed 50",
+   Callback = function() 
+       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 50
+       end
+})
+
+section:Button({
+   Text = "Speed 75",
+   Callback = function() 
+       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 75
+       end
+})
+
+section:Button({
+   Text = "Speed 250",
+   Callback = function() 
+       game.Players.LocalPlayer.Character.Humanoid.WalkSpeed = 250
+       end
+})
+
+section:Divide({})
+
+section:Button({
+   Text = "Jump 100",
+   Callback = function() 
+       game.Players.LocalPlayer.Character.Humanoid.JumpPower = 100
+       end
+})
+
+section:Button({
+   Text = "Jump 500",
+   Callback = function() 
+       game.Players.LocalPlayer.Character.Humanoid.JumpPower = 500
+       end
+})
+
+section:Button({
+   Text = "Jump 1000",
+   Callback = function() 
+       game.Players.LocalPlayer.Character.Humanoid.JumpPower = 1000
+       end
+})
+
+section:Button({
+   Text = "Jump 2500",
+   Callback = function() 
+       game.Players.LocalPlayer.Character.Humanoid.JumpPower = 2500
+       end
+})
+
+local tab = window:NewTab({
+   Logo = 4483345998
+})
+
+local tabsection = tab:TabSection({
+   Title = "Hubs"
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera |Script Hubs"
+})
+
+section:Button({
+   Text = "Domain Hub",
+   Callback = function() 
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/shlexsoftworks/Domain/main/source'),true))()
+       end
+})
+
+section:Button({
+   Text = "NukeVsCity Hub",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader", true))()
+       end
+})
+       
+section:Button({
+   Text = "Ez Hub",
+   Callback = function() 
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/debug420/Ez-Industries-Launcher-Data/master/Launcher.lua'),true))()
+       end
+})
+
+section:Button({
+   Text = "V.G Hub",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/V.G-Hub/main/V.Ghub'))()
+       end
+})
+       
+section:Button({
+   Text = "Bolts Hub",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/fusiongreg/BoltsHubV5/main/BoltsHubV5"))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | Scripts Hubs"
+})
+
+section:Button({
+   Text = "Nebula Hub",
+   Callback = function() 
+       loadstring(game:HttpGet('https://tuba.bio/nebula/scripts/loader.lua', true))()
+       end
+})
+
+section:Button({
+   Text = "Game Hub",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/TakeModzz/Games-Hub-Script/main/Games%20Hub%20(Always%20updated)"))()
+       end
+})
+       
+section:Button({
+   Text = "Ghost Hub",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/GhostPlayer352/Test4/main/GhostHub'))()
+       end
+})
+
+section:Button({
+   Text = "Masta Hub",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/MastersMZ-Scripts/MastaHub/main/Loader.lua"))()
+       end
+})
+       
+section:Button({
+   Text = "Giga Chad Hub",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/OWJBWKQLAISH/GigaChad-Hub/main/Gigachad%20Hub%20V3'))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | Script Hubs"
+})
+
+section:Button({
+   Text = "Hawk Hub",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/TheHanki/Hawk/main/Loader", true))()
+       end
+})
+
+section:Button({
+   Text = "Gelatek Hub",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/toldblock/GelatekHub/main/Main.lua"))()
+       end
+})
+       
+section:Button({
+   Text = "Script Hub",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/sxrge3k/sxrge_ssh_hub/main/sxrge_script_hub"))()
+       end
+})
+
+section:Button({
+   Text = "Weinz Hub",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/weiny-ez/w-main/main/loader.lua'))()
+       end
+})
+       
+section:Button({
+   Text = "Game Hub V2",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/GamerScripter/Game_Hub_v2/main/loader"))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | Script Hubs"
+})
+
+section:Button({
+   Text = "Goofy Ah Hub",
+   Callback = function() 
+       loadstring(game:HttpGet('https://pastebin.com/raw/Vcps4evp'))()
+       end
+})
+
+section:Button({
+   Text = "Orca Hub",
+   Callback = function() 
+       loadstring(game:HttpGetAsync("https://raw.githubusercontent.com/richie0866/orca/master/public/latest.lua"))()
+       end
+})
+       
+section:Button({
+   Text = "Domain Hub X",
+   Callback = function() 
+       loadstring(game:HttpGet('https://shlex.dev/release/domainx/latest.lua',true))()
+       end
+})
+
+section:Button({
+   Text = "Lomi Hub (MM2, TOH, DAHOOD)",
+   Callback = function() 
+       if game.PlaceId == 2788229376 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mvqna/Lomi-Hub-Open-Source/main/scripts/Dahood.lua"))()
+elseif game.PlaceId == 1962086868 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mvqna/Lomi-Hub-Open-Source/main/scripts/Toh.lua"))()
+elseif game.PlaceId == 142823291 then
+    loadstring(game:HttpGet("https://raw.githubusercontent.com/mvqna/Lomi-Hub-Open-Source/main/scripts/murder.lua"))()
+end
+       end
+})
+       
+section:Button({
+   Text = "Syntax Hub V3",
+   Callback = function() 
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/Vallater/SyntaxV2/b7a88a7b84174e3c2220c7a8ca477e40699ddd2c/Syntaxontop'),true))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera Scripts"
+})
+
+section:Button({
+   Text = "VHub",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/V31nc/2642/Created/VHub"))()
+       end
+})
+
+section:Button({
+   Text = "Heo Hub V3",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/1/main/the_greatest_script_ever_made'))()
+       end
+})
+
+section:Button({
+   Text = "British Hub",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/YourLocalNzi/Ye/main/RedCoat8102-obfuscated.lua"))()
+       end
+})
+
+section:Button({
+   Text = "Steep Steps UI",
+   Callback = function() 
+       _G.CreateKeybind = "Q" -- Define the keybind to create the ladder
+_G.RemoveKeybind = "E" -- Define the keybind to retrieve and delete the ladder. May not work properly sometimes.
+_G.GoToCoolDown = .1 -- The cooldown to fire the remote when you are at the ladder. This script is using task.wait() for this.
+ 
+loadstring(game:HttpGet("https://raw.githubusercontent.com/synnyyy/synergy/additional/steepsteps",true))()
+
+       end
+})
+
+section:Button({
+   Text = "Pissware",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/AnAvaragelilmemer/Pissware/main/Main/MobileMain.lua"))()
+       end
+})
+
+local tab = window:NewTab({
+   Logo = 4483345998
+})
+
+local tabsection = tab:TabSection({
+   Title = "Games"
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | Game Scripts"
+})
+
+section:Button({
+   Text = "Islands",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/pascaldercoole1/Open-Source-Scripts/main/FreeIslands"))()
+       end
+})
+
+section:Button({
+   Text = "Shadow Boxing Battles",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/xtrey10x/xtrey10x-hub/main/shadow", true))()
+       end
+})
+
+section:Button({
+   Text = "Chat Troller",
+   Callback = function() 
+       loadstring(game:HttpGet("https://pastebin.com/raw/SGY0Lu9z", true))()
+       end
+})
+
+section:Button({
+   Text = "Prison Life",
+   Callback = function() 
+       loadstring(game:HttpGet('https://paste.website/p/96d68817-3f1e-4fef-a8b8-9aafdc810329.txt'))()
+       end
+})
+
+section:Button({
+   Text = "Rainbow Friends",
+   Callback = function() 
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/RTrade/Voidz/main/Games.lua'),true))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera Scripts"
+})
+
+section:Button({
+   Text = "Infinte Yield",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/EdgeIY/infiniteyield/master/source'))()
+       end
+})
+
+section:Button({
+   Text = "Universal Fe Script",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/Dvrknvss/UniversalFEScriptHub/main/Script'))()
+       end
+})
+
+section:Button({
+   Text = "Pet Sim X",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Flxry/Main/MilkyHub/Pet%20Simulator%20X"))()
+       end
+})
+
+section:Button({
+   Text = "Blox Fruits (Uranium Hub)",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Augustzyzx/UraniumMobile/main/UraniumKak.lua"))()
+       end
+})
+
+section:Button({
+   Text = "Blox Fruits (HoHo Hub)",
+   Callback = function() 
+       _G.HohoVersion = "v3"
+loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/main/Loading_UI'))()
+       end
+})
+
+section:Button({
+   Text = "King LEGACY",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/AdelOnTheTop/Adel-Hub/main/Main.lua"))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | Game Scripts"
+})
+
+section:Button({
+   Text = "Natural Disaster",
+   Callback = function() 
+       loadstring(game:HttpGet('https://weinzspace.com/loadscript.lua'))()
+       end
+})
+
+section:Button({
+   Text = "Scuba Diving at QuillLake",
+   Callback = function() 
+       loadstring(game:HttpGet("https://rawscripts.net/raw/yoascirgood_1012", true))()
+       end
+})
+
+section:Button({
+   Text = "Theme Park Tycoon2",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Valenity/ParadiseHub-Open-Source/main/FuckCheater.Fun!"))()
+       end
+})
+
+section:Button({
+   Text = "Kat",
+   Callback = function() 
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+       end
+})
+
+section:Button({
+   Text = "Wizard Tycoon",
+   Callback = function() 
+       loadstring(game:HttpGet('https://6footscripts.com/Scripts/WizardTycoon2P'))();
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | Game Scripts"
+})
+
+section:Button({
+   Text = "Westbound",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Drrushh/Drrushh/main/Kdom",true))();
+       end
+})
+
+section:Button({
+   Text = "Bloxburg",
+   Callback = function() 
+       loadstring(game:HttpGet('https://api.luarmor.net/files/v3/loaders/2f213cf4f330b8eb17423eaa4ae64ff6.lua'))()
+       end
+})
+
+section:Button({
+   Text = "Cook Burgers",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/NOOBARMYSCRIPTER/NOOBARMYSCRIPTER/main/cook%20burgers", true))()
+       end
+})
+
+section:Button({
+   Text = "Ohio",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+       end
+})
+
+section:Button({
+   Text = "Fly Gui",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/XNEOFF/FlyGuiV3/main/FlyGuiV3.txt"))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | Game Scripts"
+})
+
+section:Button({
+   Text = "World Zero",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/HeiKe2022/wz-beta/main/combine.lua"))()
+       end
+})
+
+section:Button({
+   Text = "Ninja Tycoon",
+   Callback = function() 
+       loadstring(game:HttpGet("http://void-scripts.com/Scripts/myRest.lua"))()
+       end
+})
+
+section:Button({
+   Text = "Slayer Tycoon",
+   Callback = function()     
+       loadstring(game:HttpGet"https://pastebin.com/raw/NbqEuQi2")()
+       end
+})
+
+section:Button({
+   Text = "Youtube Sim Z",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/DEVIL-Script/DEVIL-Hub/main/DEVIL-Hub-Main", true))()
+       end
+})
+
+section:Button({
+   Text = "Kaiju Universe Script",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Marco8642/science/main/Kaiju%20Universe", true))()
+       end
+})
+
+local tab = window:NewTab({
+   Logo = 4483345998
+})
+
+local tabsection = tab:TabSection({
+   Title = "More Games"
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | More Game Scripts"
+})
+
+section:Button({
+   Text = "Work at a Pizza Place",
+   Callback = function() 
+       loadstring(game:HttpGet("https://gist.githubusercontent.com/Tu...", true))()
+       end
+})
+
+section:Button({
+   Text = "Sonic Speed Sim",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe/ToraIsMe/main/0sonic2", true))()
+       end
+})
+
+section:Button({
+   Text = "Teen Titans Battlegrounds",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Titans/main/Battle", true))()
+       end
+})
+
+section:Button({
+   Text = "Bubble Gum Sim",
+   Callback = function() 
+       loadstring(game:HttpGet(("https://textbin.net/raw/t4jqgjsvfi"),true))()
+       end
+})
+
+section:Button({
+   Text = "Bedwars",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/7GrandDadPGN/VapeV4ForRoblox/main/NewMainScript.lua", true))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | More Game Scripts"
+})
+
+section:Button({
+   Text = "Apeirophobia",
+   Callback = function() 
+       loadstring(game:HttpGet("https://gabescripts.com/access.lua"))()
+       end
+})
+
+section:Button({
+   Text = "Adopt Me",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/BloxiYT/Diamond/main/AdoptMe", true))()
+       end
+})
+
+section:Button({
+   Text = "Animal Sim",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/CasperFlyModz/discord.gg-rips/main/AnimalSimulator.lua",true))()
+       end
+})
+
+section:Button({
+   Text = "All Star Tower Defense",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/KarmaPanda/Roblox/main/astd-aio.lua', true))()
+       end
+})
+
+section:Button({
+   Text = "MM2",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Ethanoj1/EclipseMM2/master/Script", true))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | More Game Scripts"
+})
+
+section:Button({
+   Text = "Saber Showdown",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Saber/main/Showdown"))()
+       end
+})
+
+section:Button({
+   Text = "Ability wars",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/castycheat/abilitywars/main/Protected%20(29).lua"))()
+       end
+})
+
+section:Button({
+   Text = "Build a boat",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/1201for/littlegui/main/Build-A-Boat'))()
+       end
+})
+
+section:Button({
+   Text = "Untitled Boxing Game",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Untitled/main/Boxing"))()
+       end
+})
+
+section:Button({
+   Text = "Boxing League",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/Untitled/main/Boxing"))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | More Game Scripts"
+})
+
+section:Button({
+   Text = "Life Sentence",
+   Callback = function() 
+       loadstring(game:HttpGet("https://keyland.best/raw/KLD/KLD", true))()
+       end
+})
+
+section:Button({
+   Text = "Arm Wrestling Sim",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/limaspeedy/limaspeedy/main/HubLDS"))()
+       end
+})
+
+section:Button({
+   Text = "Skywars",
+   Callback = function() 
+       loadstring(game:HttpGet("https://paste.ee/r/r9gnA", true))()
+       end
+})
+
+section:Button({
+   Text = "Combat Warriors",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Vcsk/RobloxScripts/main/HitboxExpander.lua"))()
+       end
+})
+
+section:Button({
+   Text = "Shinobi Life 2",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/SxnwDev/Premier/main/Free-Premier.lua", true))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | More Game Scripts"
+})
+
+section:Button({
+   Text = "Car Crushers 2",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/limaspeedy/limaspeedy/main/HubLDS"))()
+       end
+})
+
+section:Button({
+   Text = "Retail Tycoon 2",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Tokkenik/clock.lua/main/loader.lua"))()
+       end
+})
+
+section:Button({
+   Text = "Jailbreak",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/GuruScripts/GuruHub/main/GuruLoader"))()
+       end
+})
+
+section:Button({
+   Text = "Tsunami Game",
+   Callback = function() 
+       loadstring(game:HttpGet("https://pastebin.com/raw/7n2v6T8n", true))()
+       end
+})
+
+section:Button({
+   Text = "Creeper Chaos",
+   Callback = function() 
+       loadstring(game:HttpGet("https://pastebin.com/raw/yadPZ41M", true))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera | More Game Scripts"
+})
+
+section:Button({
+   Text = "Break In",
+   Callback = function() 
+       loadstring(game:HttpGet('https://pastebin.com/raw/xUGJt9Ry', true))()
+       end
+})
+
+section:Button({
+   Text = "Tower of Hell",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/acsu123/HOHO_H/SCRIPTS/TowerOfHell.lua'))()
+       end
+})
+
+section:Button({
+   Text = "Giant Survival",
+   Callback = function() 
+       loadstring(game:HttpGet('https://pastebin.com/raw/zABEESgr', true))()
+       end
+})
+
+section:Button({
+   Text = "Field Trip Z",
+   Callback = function() 
+       loadstring(game:HttpGet('https://pastebin.com/raw/aY7Z3Nd3', true))()
+       end
+})
+
+section:Button({
+   Text = "Mad City",
+   Callback = function() 
+       loadstring(game:HttpGet('https://pastebin.com/raw/EwnNCfin', true))()
+       end
+})
+
+local tab = window:NewTab({
+   Logo = 4483345998
+})
+
+local tabsection = tab:TabSection({
+   Title = "Fe Scripts"
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera |Fe Scripts"
+})
+
+section:Button({
+   Text = "Invis Skateboard",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/rouxhaver/scripts-3/main/invisible%20skateboard.lua", true))()
+       end
+})
+
+section:Button({
+   Text = "Brookhaven Admin",
+   Callback = function() 
+       loadstring(game:HttpGet("https://gist.githubusercontent.com/testttbqwebg/adc0db730f5dfca0d8dbdb81f3b65391/raw/b0443888c4399af5a297cb1100a4749c65705711/qweqw", true))()
+       end
+})
+
+section:Button({
+   Text = "Sword Fight Robot",
+   Callback = function() 
+       loadstring(game:HttpGet('https://raw.githubusercontent.com/yeerma/1/main/bot'))()
+       end
+})
+
+section:Button({
+   Text = "Telekinesis",
+   Callback = function() 
+       loadstring(game:HttpGet('https://controlc.com/834c69aa'))()
+       end
+})
+
+section:Button({
+   Text = "Spiderman",
+   Callback = function() 
+       loadstring(game:HttpGet('https://controlc.com/5792302c'))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera |Fe Scripts"
+})
+
+section:Button({
+   Text = "Fates Admin",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/fatesc/fates-admin/main/main.lua"))();
+       end
+})
+
+section:Button({
+   Text = "Galaxy Slasher",
+   Callback = function() 
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/Toasty8i/slasher/main/slasher.lua'),true))()
+       end
+})
+
+section:Button({
+   Text = "Linorix Fe Hub",
+   Callback = function() 
+       loadstring(game:HttpGet(('https://raw.githubusercontent.com/vilRBLX/Linorix/main/.github/workflows/linorix.lua'),true))()
+       end
+})
+
+section:Button({
+   Text = "C00l Gui",
+   Callback = function() 
+       loadstring(game:GetObjects("rbxassetid://8127297852")[1].Source)()
+       end
+})
+
+section:Button({
+   Text = "Unnamed Hub",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/Ner0ox/sexy-script-hub/main/Loader.lua"))()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera |Fe Scripts"
+})
+
+section:Button({
+   Text = "Kick Gui",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/DestructionHubV1/Kick-Gui/main/kick%20gui", true))()
+       end
+})
+
+section:Button({
+   Text = "Free Gamepass",
+   Callback = function() 
+       loadstring(game:HttpGet('https://pastebin.com/raw/QtQ4YnVR'))()
+       end
+})
+
+section:Button({
+   Text = "Hoverboard",
+   Callback = function() 
+       loadstring(game:GetObjects('rbxassetid://7339698872')[1].Source)()
+       end
+})
+
+section:Button({
+   Text = "Unlimited gears/tools",
+   Callback = function() 
+       loadstring(game:HttpGet("https://raw.githubusercontent.com/PlanetHubX/Lucky-Blocks/main/source", true))()
+       end
+})
+
+section:Button({
+   Text = "Laser gun",
+   Callback = function() 
+       loadstring(game:HttpGet('https://pastebin.com/raw/SBbr8YHZ'))()
+       end
+})
+
+
+local tab = window:NewTab({
+   Logo = 4483345998
+})
+
+local tabsection = tab:TabSection({
+   Title = "Keys and more"
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Teen Titans Battlegrounds"
+})
+
+section:Button({
+   Text = "T-Titans^^77Battlegrounds!!Script",
+   Callback = function()
+       end
+})
+
+local section = column:Section({
+   Title = "Youtube Sim Z"
+})
+
+section:Button({
+   Text = "JWqJSr8U4DDgkGGFQzvD",
+   Callback = function()
+       end
+})
+
+section:Textbox({
+   Text = "If that doesnt work, go to https://link-target.net/382195/devil-hub-key1.",
+   Callback = function() end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Untitled Boxing Game"
+})
+
+section:Button({
+   Text = "BestBoxingRoblox9871",
+   Callback = function()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Adopt Me"
+})
+
+section:Button({
+   Text = "DH_24UPDATESOONmaybe=",
+   Callback = function()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Syntax V2"
+})
+
+section:Button({
+   Text = "Syntaxbesthub",
+   Callback = function()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Natural Disaster"
+})
+
+section:Button({
+   Text = "D2KK1f2",
+   Callback = function()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Masta hub"
+})
+
+section:Button({
+   Text = "F6225812F82381BDECA33414CB767a",
+   Callback = function()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Linorix Hub"
+})
+
+section:Button({
+   Text = "goingOnVaca",
+   Callback = function()
+       end
+})
+
+local section = column:Section({
+   Title = "Jailbreak "
+})
+
+section:Button({
+   Text = "ZKlajks181a3r2",
+   Callback = function()
+       end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera Credits"
+})
+
+section:Textbox({
+   Text = "Coded by Aaron You.",
+   Callback = function() end
+})
+
+section:Textbox({
+   Text = "Credits to who made the scripts for games, and hubs.",
+   Callback = function() end
+})
+
+section:Textbox({
+   Text = "Remeber some scripts might work or not work.",
+   Callback = function() end
+})
+
+local column = tabsection:AddColumn({
+   Title = "Kronera | V3"
+})
+
+local section = column:Section({
+   Title = "Kronera Controls"
+})
+
+section:Dropdown({
+   Text = "Telekinesis",
+   List = {'Q and E to bring closer + further', 'R to rotate', 'T to tilt,', 'Y to throw'},
+   Callback = function() end
+})
+
+section:Dropdown({
+   Text = "Sword Fight Bot",
+   List = {'X to turn on'},
+   Callback = function() end
+})
+
+section:Dropdown({
+   Text = "Steep Steps UI",
+   List = {'Q to define keybind to create ladder', 'E define the keybind to create and delete the ladder'},
+   Callback = function() end
+})
